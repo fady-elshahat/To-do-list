@@ -1,0 +1,113 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body{
+     min-height: 100vh;
+     font-family: 'Poppins', sans-serif;
+     display: flex;
+     justify-content: center;
+     background-color: #E1E3EA ;
+}
+main{
+     margin-top: 50px ;
+     width: 50%;
+     border-radius: 10px 10px 0 0;
+     overflow: hidden;
+}
+header h1{
+     font-size: 2rem;
+     color: white;
+     padding: 15px 0;
+     background-color: #de3f53;
+     text-align: center;
+}
+form{
+     display: flex;
+     justify-content: space-between;
+}
+form input , form button{
+     border: 0;
+     outline: 0;
+     padding: 10px;
+}
+form input{
+     width: 91%;
+     background-color: #3C4979;
+     color: #f2f2f2;
+     font-size: 1.2rem;
+
+}
+form input::placeholder{
+     color: #A3A9C0;
+}
+form button{
+     width: 9%;
+     background-color: #1DD2AF;
+     color: #fff;
+     transition: all 0.3s;
+     cursor: pointer;
+}
+form button:hover{
+     background-color: #fff;
+     color: #1dd23b;
+}
+.alert{
+     margin: 20px 0 ;
+     background-color: #E1E3EA;
+     color: #820818;
+     text-align: center;
+}
+
+.todo-container{
+     background-color: #262E4C;
+     color:#f4f4f4;
+}
+.todo{
+     display: flex;
+     justify-content: space-between;
+     padding: 8px 12px;
+     border-bottom: 1px solid #3A4674;
+     transition: all .3s ease;
+}
+.todo li{
+     flex: 1;
+}
+.check , .trash{
+     font-size: 1rem;
+     padding: 3px 5px;
+     color: #fff;
+     border: none;
+     outline: none;
+     background-color: transparent;
+     cursor: pointer;
+     display: block;
+}
+.copmlete-btn{
+     color: #1dd23b;
+}
+.copmlete{
+     text-decoration: line-through;
+     opacity: 0.7;
+}
+.trash-btn{
+     color: #ce1a32;
+     transform: translateX(200%);
+}
+
+select{
+     background-color: #3C4979;
+     color: #f2f2f2;
+     border: none;
+     outline: none;
+     padding: 0 10px;
+     font-size: 1rem;
+     cursor: pointer;
+     width: 150px;
+}
+select:hover{
+     background-color: #f2f2f2;
+     color: #3C4979;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+     <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="shortcut icon" href="assest/3336939_document_list_note_notes_paper_icon.svg" type="image/x-icon">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+               integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+               crossorigin="anonymous" referrerpolicy="no-referrer" />
+          <link rel="stylesheet" href="assest/style.css">
+          <title>TO DO List</title>
+     </head>
+
+     <body>
+          <main>
+               <header>
+                    <h1>To Do List</h1>
+               </header>
+               <form>
+                    <input type="text" id="todo-input" placeholder="Add New Task" autocomplete="off">
+                    <button id="todo-btn">
+                         <i class="fas fa-plus"></i>
+                    </button>
+                    <select name="todos" id="filter-todo">
+                         <option value="all">All</option>
+                         <option value="completed">Completed</option>
+                         <option value="uncompleted">UnCoompleted</option>
+                    </select>
+               </form>
+               <div class="todo-container">
+                    <ul class="todo-list">
+                         
+                    </ul>
+               </div>
+               <div class="alert">
+                    <p class="alert-text">
+                    </p>
+               </div>
+          </main>
+          <script src="main.js"></script>
+     </body>
+
+</html>
